@@ -11,7 +11,7 @@ namespace Rhynow.Function
 {
     public class Payload
     {
-        public string test { get; set; }
+        public string Name { get; set; }
     }
     public static class HttpTriggerMain
     {
@@ -28,7 +28,7 @@ namespace Rhynow.Function
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Welcome to Azure Functions!");
+            response.WriteString($"Welcome to Azure Functions {data.Name}!");
 
             return response;
         }
