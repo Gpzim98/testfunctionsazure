@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_gpzim98_name": {
+            "value": null
+        },
+        "serverfarms_ASP_gpzim98_25f3_name": {
+            "value": null
+        },
+        "components_gpzim98appinsights_name": {
+            "value": null
+        },
+        "storageAccounts_gpzim98storageaccountnew_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        }
+    }
+}
